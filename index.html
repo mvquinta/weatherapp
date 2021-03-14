@@ -5,28 +5,42 @@
         <meta name="mvqdev" content="">
         <meta name="viewport" content="width=device.width, initial-scale=1.0">
         <title>1+Weather App</title>
-
         <!--Styles-->
         <!--<link href="./css/main.css" rel="stylesheet" type="text/css" media="all">-->
 
         <!--Fonts-->
-        <!--Load them here if I have them-->
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
 
         <!--Icons-->
         <!--Load them here if I have them-->
     </head>
 
-    <body>
-        <h1>1+Weather App</h1>
-        <div class="to-test"></div>
-        <div class="div-form">
-            <form>
-                <label>Location</label>
-                <input class="weather-location" type="text" placeholder="location" required>
-                <input class="btnLocation" type="submit" value="Add">
-            </form>
-        </div>
-        <div class="temp-div-to-print">Ey</div>
+    <body>       
+        <div class="main-content">
+            <div class="div-background">
+                <h1>1+Weather App</h1>
+                <div class="main-weather-info">
+                    <div class="div-weather-info">
+                        <div class="div-form">
+                            <form>
+                                <label>Location</label>
+                                <input class="weather-location" type="text" placeholder="location" required>
+                                <input class="btnLocation" type="submit" value="Add">
+                            </form>
+                        </div><!--/div-form-->
+                        <div class="temp-div-to-print">Ey</div> 
+                        <div class="div-weather-details">
+                            <div class="weather-description">Weather Description</div>
+                            <div class="weather-temperature">Temperatura</div>                        
+                            <div class="weather-humidity">Humidity</div>
+                            <div class="weather-windspeed">windspeed</div>
+                            <div class="weather-sunrise">Sunrise</div>
+                            <div class="weather-sunset">Sunset</div>
+                        </div><!--/div-weather-details-->                                        
+                    </div><!--/div-weather-info-->
+                </div><!--/main-weather-info-->
+            </div><!--/div-background-->
+        </div><!--/main-content-->
         
         <script src="bundle.js"></script>
     </body>
