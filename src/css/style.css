@@ -1,7 +1,67 @@
-h1 {
-  color: green;
+:root {
+  --box-shadow-color: rgba(27, 28, 30, 0.25);
+  --weather-black: #1b1c1e;
+  --weather-gray: #d5d9d4;
+  --weather-dark-red: #9b5859;
+  --weather-red: #ea534e;
+  --weather-dark-blue: #233947;
+  --weather-blue: #8eafc5;
+  --weather-light-yellow: #eae5ca;
+  --weather-beige: #fdeee1;
 }
 
-p {
-  color: blue;
+@font-face {
+  font-family: 'Raleway';
+  src: url('../assets/Raleway-VariableFont_wght.ttf');
+  color: var(--weather-black);
 }
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+}
+
+h1 {
+  margin: 0;
+  color: red;
+}
+
+.div-background {
+  background-image: url('../assets/bg_sunny.png');
+  width: auto;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.div-weather-details {
+  display: flex;
+}
+
+.div-weather-info {
+  margin: auto;
+  width: 50%;
+  height: 768px;
+  background: var(--weather-beige);
+  font-weight: 200;
+  border-radius: 8px;
+  box-shadow: 4px 4px 20px var(--box-shadow-color);
+}
+
+/*.weather-description {
+  height: 100px;
+  border: 1px solid red;
+  background-image: url('../assets/sun.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  src: url('../assets/sun.svg');
+}*/
