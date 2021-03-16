@@ -17,26 +17,67 @@
 
     <body>       
         <div class="main-content">
-            <div class="div-background">
+            <div class="div-background sunny">
                 <h1>1+Weather App</h1>
                 <div class="main-weather-info">
-                    <div class="div-weather-info">
-                        <div class="div-form">
-                            <form>
-                                <label>Location</label>
-                                <input class="weather-location" type="text" placeholder="location" required>
-                                <input class="btnLocation" type="submit" value="Add">
-                            </form>
-                        </div><!--/div-form-->
-                        <div class="temp-div-to-print">Ey</div> 
-                        <div class="div-weather-details">
-                            <div class="weather-description">Weather Description</div>
-                            <div class="weather-temperature">Temperatura</div>                        
-                            <div class="weather-humidity">Humidity</div>
-                            <div class="weather-windspeed">windspeed</div>
-                            <div class="weather-sunrise">Sunrise</div>
-                            <div class="weather-sunset">Sunset</div>
-                        </div><!--/div-weather-details-->                                        
+                    <div class="div-weather-info">                        
+                        <div class="flex-wrapper">
+                            <div class="row">
+                                <div class="column">
+                                    <div class="blue-column">
+                                        <div class="div-form">
+                                            <form>
+                                                <input class="input-location" type="text" placeholder="location" required>
+                                                <input class="btn-location" type="submit" value="Add">
+                                            </form>
+                                        </div><!--/div-form-->
+                                    </div><!--/blue-column-->
+                                </div><!--/column-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="column">
+                                    <div class="big-column w-description">
+                                        <p class="w-p-description">Weather Description</p>
+                                    </div><!--/big-column-->
+                                </div><!--/column-->
+                                <div class="column">
+                                    <div class="big-column w-city-temperature">
+                                        <div class="div-city-name">Lisbon,PT</div>
+                                        <div class="div-temperature">20ºC</div>
+                                        <div class="div-feels-like">Feels Like</div>
+                                        <div class="div-feels-like-temp">18ªC</div>
+                                    </div><!--/big-column-->
+                                </div><!--/column-->
+                            </div><!--/row big-row-->
+                            <div class="row">
+                                <div class="column ">
+                                    <div class="blue-column">
+                                        <div class="w-humidty w-title">Humidty</div>
+                                        <div class="w-humidty-value w-value">55%</div>
+                                    </div><!--/blue-column-->
+                                </div><!--/column-->
+                                <div class="column">
+                                    <div class="green-column">
+                                        <div class="w-sunrise w-title">Sunrise</div>
+                                        <div class="w-sunrise-value w-value">7:28:01</div>
+                                    </div><!--/green-column-->
+                                </div><!--/column-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="column">
+                                    <div class="blue-column">
+                                        <div class="w-wind w-title">Wind</div>
+                                        <div class="w-wind-value w-value">9km/h</div>
+                                    </div><!--/blue-column-->
+                                </div><!--/column-->
+                                <div class="column">
+                                    <div class="green-column">
+                                        <div class="w-sunset w-title">Sunset</div>
+                                        <div class="w-sunset-value w-value">19:06:28</div>
+                                    </div><!--/green-column-->
+                                </div><!--/column-->
+                            </div><!--/row-->
+                        </div><!--flex-wrapper-->
                     </div><!--/div-weather-info-->
                 </div><!--/main-weather-info-->
             </div><!--/div-background-->
