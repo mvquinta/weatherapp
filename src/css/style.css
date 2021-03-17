@@ -31,7 +31,12 @@ h1 {
   margin: 0;
   text-align: center;
   padding-top: 20px;
+  color: var(--weather-black);
 }
+
+/***
+Classes CSS for background when it changes based on weather conditions
+***/
 
 .sunny {
   background-image: url('../assets/bg_sunny.png');
@@ -92,6 +97,10 @@ h1 {
   background-size: cover;
   position: relative;
 }
+
+/***
+Classes CSS for weather info card color when it changes based on weather conditions
+***/
 
 .main-weather-info {
   padding-top: 40px;
@@ -208,9 +217,22 @@ FOR WEATHER INFO AND DETAILS*/
   color: var(--weather-red);
   border-radius: 4px;
   cursor: pointer;
+  font-size: 1.5em;
+}
+
+.btn-location.btn-storm {
+  border: none;
+  background: transparent;
+  color: var(--weather-black);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.5em;
 }
 
 /*WEATHER DESCRIPTION*/
+/***
+Classes CSS for weather description when it changes based on weather conditions
+***/
 
 .w-description {
   background-image: url('../assets/desc-sunRedDropShadow.svg');
