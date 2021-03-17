@@ -14,6 +14,10 @@ Made with HTML, CSS, JavaScript and Webpack to bundle it.
 
 This project allowed me to learn and practice how to work with an API and with Async.
 
+///////////////////////////////
+<img src="onemoeweatheapp_mvqdev.jpg">
+//////////////////////////////
+
 Feel that it deserves a better CCS work with better positioning and some animations.
 
 For a potentially v2 version, that will definitely be one of the mais objectives
