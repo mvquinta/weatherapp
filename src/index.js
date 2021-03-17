@@ -126,7 +126,7 @@ async function weatherIdSwitchClass() {
 
 async function fetchWeatherApi(location) {
     try {
-        const weatherResponse = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&APPID=607c2ee8da062c5abea21dcd8215c3b7`, {mode: 'cors'})
+        const weatherResponse = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&APPID=607c2ee8da062c5abea21dcd8215c3b7`, {mode: 'cors'})
         weatherData = await weatherResponse.json()
     } catch (err){
         console.log('Error catch in main function fecthWeatherApi:', err)
