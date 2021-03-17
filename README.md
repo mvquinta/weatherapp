@@ -2,9 +2,9 @@
 
 TOP - Weather App project
 
-My version for The Odin Project (https://mvquinta.github.io/weatherapp/) weather app: 1+Weather App.
+My version for [The Odin Project](www.theodinproject.com)  weather app: 1+Weather App.
 
-Live Demo ()
+[Live Demo](https://mvquinta.github.io/weatherapp/)
 
 Main features:
 
@@ -19,5 +19,3 @@ This project allowed me to learn and practice how to work with an API and with A
 Feel that it deserves a better CCS work with better positioning and some animations.
 
 For a potentially v2 version, that will definitely be one of the mais objectives
-
-https://www.theodinproject.com
