@@ -4,8 +4,6 @@ TOP - Weather App project
 
 1+Weather App [Live Demo](https://mvquinta.github.io/weatherapp/)
 
-My version for [The Odin Project](www.theodinproject.com)
-
 Main features:
 
 - Using fetch to call Open Weather API
@@ -19,3 +17,6 @@ This project allowed me to learn and practice how to work with an API and with A
 Feel that it deserves a better CCS work with better positioning and some animations.
 
 For a potentially v2 version, that will definitely be one of the mais objectives
+
+//
+This was my take for the project of [The Odin Project](www.theodinproject.com)
