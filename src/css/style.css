@@ -29,7 +29,8 @@ body {
 
 h1 {
   margin: 0;
-  color: green;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .sunny {
@@ -92,6 +93,10 @@ h1 {
   position: relative;
 }
 
+.main-weather-info {
+  padding-top: 40px;
+}
+
 .div-weather-info {
   margin: auto;
   width: 50%;
@@ -102,9 +107,55 @@ h1 {
   box-shadow: 4px 4px 20px var(--box-shadow-color);
 }
 
-/*.flex-wrapper {
-  background-color: orange;
-}*/
+.div-weather-info.info-color-clouds {
+  margin: auto;
+  width: 50%;
+  height: 768px;
+  background: var(--weather-blue);
+  font-weight: 200;
+  border-radius: 8px;
+  box-shadow: 4px 4px 20px var(--box-shadow-color);
+}
+
+.div-weather-info.info-color-wind {
+  margin: auto;
+  width: 50%;
+  height: 768px;
+  background: var(--weather-gray);
+  font-weight: 200;
+  border-radius: 8px;
+  box-shadow: 4px 4px 20px var(--box-shadow-color);
+}
+
+.div-weather-info.info-color-snow {
+  margin: auto;
+  width: 50%;
+  height: 768px;
+  background: var(--weather-dark-blue);
+  font-weight: 200;
+  border-radius: 8px;
+  box-shadow: 4px 4px 20px var(--box-shadow-color);
+}
+
+.div-weather-info.info-color-rain {
+  margin: auto;
+  width: 50%;
+  height: 768px;
+  background: var(--weather-gray);
+  font-weight: 200;
+  border-radius: 8px;
+  box-shadow: 4px 4px 20px var(--box-shadow-color);
+}
+
+.div-weather-info.info-color-storm {
+  margin: auto;
+  width: 50%;
+  height: 768px;
+  background: var(--weather-red);
+  font-weight: 200;
+  border-radius: 8px;
+  box-shadow: 4px 4px 20px var(--box-shadow-color);
+}
 
 /*FLEX CSS 
 FOR WEATHER INFO AND DETAILS*/
@@ -140,6 +191,7 @@ FOR WEATHER INFO AND DETAILS*/
 
 .div-form {
   margin-top: 40px;
+  outline: none;
 }
 
 .input-location {
@@ -147,6 +199,7 @@ FOR WEATHER INFO AND DETAILS*/
   height: 40px;
   margin: 0 10px;
   font-size: 16px;
+  width: 50%;
 }
 
 .btn-location {
@@ -160,7 +213,55 @@ FOR WEATHER INFO AND DETAILS*/
 /*WEATHER DESCRIPTION*/
 
 .w-description {
-  background-image: url('../assets/sunRedDropShadow.svg');
+  background-image: url('../assets/desc-sunRedDropShadow.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 150px 150px;
+  margin-top: 10px;
+}
+
+.w-description.i-clear {
+  background-image: url('../assets/desc-sunRedDropShadow.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 150px 150px;
+  margin-top: 10px;
+}
+
+.w-description.i-clouds {
+  background-image: url('../assets/desc-cloudDropSh.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 150px 150px;
+  margin-top: 10px;
+}
+
+.w-description.i-wind {
+  background-image: url('../assets/desc-windDropSh.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 150px 150px;
+  margin-top: 10px;
+}
+
+.w-description.i-storm {
+  background-image: url('../assets/desc-lightningDropSh.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 150px 150px;
+  margin-top: 10px;
+}
+
+.w-description.i-snow {
+  background-image: url('../assets/desc-snowDropSh.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 150px 150px;
+  margin-top: 10px;
+}
+
+.w-description.i-rain {
+  background-image: url('../assets/desc-rainDropSh.svg');
   background-repeat: no-repeat;
   background-position: top;
   background-size: 150px 150px;
@@ -188,6 +289,7 @@ FOR WEATHER INFO AND DETAILS*/
 }
 
 .div-feels-like {
+  padding-top: 60px;
   font-size: 1.5em;
   font-weight: 100;
 }
@@ -205,6 +307,20 @@ FOR WEATHER INFO AND DETAILS*/
 
 .w-value {
   font-size: 1.5em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.footerP {
+  margin: 0 20px;
+}
+
+a {
+  color: rgb(20, 20, 20);
 }
 
 @media screen and (min-width: 800px) {
