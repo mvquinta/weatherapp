@@ -2,9 +2,9 @@
 
 TOP - Weather App project
 
-My version for [The Odin Project](www.theodinproject.com)  weather app: 1+Weather App.
+1+Weather App [Live Demo](https://mvquinta.github.io/weatherapp/)
 
-[Live Demo](https://mvquinta.github.io/weatherapp/)
+My version for [The Odin Project](www.theodinproject.com)
 
 Main features:
 
